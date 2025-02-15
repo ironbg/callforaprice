@@ -1,0 +1,87 @@
+.AdminCallForPrice .form-wrapper {
+    max-width: 100% !important;
+}
+
+.AdminCallForPrice .block_type_quantity label,
+.AdminCallForPrice .block_type_price label,
+.AdminCallForPrice .block_selection_type label {
+    height: 39px !important;
+    padding-top: 4px;
+    border-radius: 4px;
+}
+
+.AdminCallForPrice .tree-panel-heading-controls .tt-query,
+.AdminCallForPrice .tree-actions .pull-right,
+.AdminCallForPrice .search_checkbox_table {
+    height: 35px !important;
+}
+
+.AdminCallForPrice .customer_group_list .col-lg-3,
+.AdminCallForPrice .manufacturer_list_callforprice .col-lg-3{
+    width: 33.33333%;
+    float: left;
+}
+
+.AdminCallForPrice .customer_group_list .col-lg-9,
+.AdminCallForPrice .manufacturer_list_callforprice .col-lg-9 {
+   width: 66.66667%;
+    padding-left: 13px;
+}
+.AdminCallForPrice .customer_group_list .col-lg-6,
+.AdminCallForPrice .manufacturer_list_callforprice .col-lg-6{
+    width: 60%;
+}
+
+.AdminCallForPrice .translatable-field .lang-\{\$id_lang\} {
+    height: 80px;
+}
+
+.AdminCallForPrice .customer_group_list .col-lg-3 span.control-label,
+.AdminCallForPrice .manufacturer_list_callforprice .col-lg-3 span.control-label {
+    padding-right: 0;
+}
+
+.AdminCallForPrice .block_settings_general .col-lg-9 .mce-edit-area,
+.AdminCallForPrice .consent_checkbox_message_textarea .col-lg-9 .mce-content-body{
+    min-height: 60px;
+}
+
+.AdminCallForPrice .form-preview .col-lg-8,
+.AdminCallForPrice .form_tab_settings .col-lg-8,
+.AdminCallForPrice .consent_checkbox_message_textarea .col-lg-8,
+.AdminCallForPrice .delay_hidden .col-lg-8 {
+    width: 75%;
+}
+
+.AdminCallForPrice .callback-form-title .col-lg-4,
+.AdminCallForPrice .form-footer-message-group .col-lg-4,
+.AdminCallForPrice .settings-font-size-group .col-lg-4,
+.AdminCallForPrice .form_tab_settings .col-lg-4,
+.AdminCallForPrice .consent_checkbox_message_textarea .col-lg-4,
+.AdminCallForPrice .delay_hidden .col-lg-4 {
+    width: 25%;
+}
+
+.AdminCallForPrice .form-footer-message-group .col-lg-8,
+.AdminCallForPrice .callback-form-title .col-lg-8 {
+    width: 40%;
+}
+
+.AdminCallForPrice .settings-font-size-group .col-lg-8 {
+    width: 22%;
+}
+
+.AdminCallForPrice .codeMirror .col-lg-4 {
+    width: 100%;
+    font-size: 17px !important;
+    text-align: left !important;
+    margin-bottom: 20px !important;
+}
+
+.AdminCallForPrice .codeMirror .col-lg-8 {
+    width: 100%;
+    margin-left: 0px;
+    border: 1px solid #dadada;
+    padding-left: 0px;
+
+}

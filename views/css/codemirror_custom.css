@@ -1,0 +1,105 @@
+.header_call_back, .header_call_back_info{
+    background: #8e44ad;
+}
+.title_call_back, #inform_callback_msg_sign i{
+    color: #ffffff;
+}
+.inform_call_block .close_block,
+.gomakoil_call_block .close_block{
+    color: #ffffff;
+}
+
+.inform_call_block,
+.callback_content {
+    background: #fefdff;
+}
+.callback_content #button_large_call{
+    color: #ffffff;
+    background: #8e44ad;
+}
+
+.CallForPriceLabel .product-prices.product-prices-callforprice{
+    display: block !important;
+}
+.CallForPriceLabel .product-variants,
+.CallForPriceLabel .product-prices {
+    display: none;
+}
+
+.CallForPriceLabelCategory .product-price-and-shipping
+{
+    display: none;
+}
+.CallForPriceLabelCategory .product-price-and-shipping.product-price-and-shipping-callforprice
+{
+    display: block;
+}
+
+.header_call_back:after, .header_call_back_info:after {
+    border-top-color: #8e44ad;
+}
+
+#button_large_call {
+    background: #8e44ad;
+    color: #fefdff;
+    font-size: 18px;
+}
+
+#button_large_call:hover {
+  background-color: #9b59b6;
+}
+
+#button_large_call.disabled-submit-btn:hover {
+  background: #8e44ad !important;
+}
+
+.inform_call_block .close_block i:hover,
+.gomakoil_call_block .close_block i:hover {
+    color: #9b59b6;
+}
+
+#mpm_callforprice_form_additional_msg {
+    color: #000000;
+}
+
+#mpm_callforprice_form_title {
+    font-size: 32px;
+}
+
+.productNameTitle {
+    font-size: 22px;
+}
+
+#mpm_callforprice_form_additional_msg {
+    font-size: 16px;
+}
+
+.inform_call_block .content_info {
+    color: #000000;
+}
+
+#gomakoilFreeCall .mpm-callforprice-focused-input .input-group .form-control {
+    border-color: #8e44ad;
+    background-color: #ffffff;
+}
+
+#gomakoilFreeCall .mpm-callforprice-focused-input .input-group-addon {
+    border-color: #8e44ad !important;
+    background-color: #8e44ad;
+    color: #ffffff;
+}
+
+#gomakoilFreeCall .captcha_res-form-group .input-group-addon {
+  background-color: #ffffff !important;
+}
+
+.gomakoil_call_block #consent_checkbox_container input:checked ~ .custom-checkbox {
+  background-color: #8e44ad !important;
+}
+
+.gomakoil_call_block #consent_checkbox_container #consent_message,
+.gomakoil_call_block #consent_checkbox_container #consent_message p {
+  color: #000000 !important;
+}
+
+

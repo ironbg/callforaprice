@@ -1,0 +1,621 @@
+.logo_myprestamodules{
+  float: left;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+.title_form, .form_footer_message, .email_send_to{
+  width: 50% !important;
+}
+@media (max-width: 1200px){
+  .title_form, .form_footer_message, .email_send_to, .color_background, .color_header, .color_text{
+    width: 100% !important;
+  }
+}
+.callforprice .form-group:nth-child(2) .col-lg-2, .callforprice .form-group:nth-child(3) .col-lg-2, .callforprice .form-group:nth-child(4) .col-lg-2{
+  width: 250px
+}
+.callforprice .display_fields{
+  font-size: 14px;
+  font-weight: bold;
+}
+.logo_myprestamodules_prod{
+  width: 20px;
+  margin: 5px 10px;
+}
+.saveCallForPrice{
+  float: right;
+}
+#product_form .product-tab-content  .alert.alert-danger{
+  display: none !important;
+}
+.header_call_back, .header_call_back_info, .header_call_back_preview {
+  min-height: 65px;
+  border-radius: 7px 7px 0 0;
+}
+.title_call_back, .title_call_back_preview {
+  font-size: 19px;
+  padding: 50px 25px 25px 25px;
+  line-height: 24px;
+  text-align: center;
+  word-break: break-all;
+}
+.inform_call_block .close_block,
+.gomakoil_call_block .close_block,
+.gomakoil_call_block_preview .close_block_preview {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.inform_call_block .close_block i,
+.gomakoil_call_block .close_block i,
+.gomakoil_call_block_preview .close_block_preview i {
+  font-size: 20px;
+}
+
+.gomakoilFreeCall{
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.gomakoilFreeCall:hover div{
+  text-decoration: underline;
+}
+.gomakoilFreeCall img{
+  float: left;
+  max-width: 50px
+}
+.gomakoilFreeCall div{
+  font: normal 14px/12px Arial;
+  float: left;
+  margin: 9px 0 0 8px;
+  color: rgb(79, 79, 79);
+}
+.gomakoil_overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.6 ;
+  z-index: 6050;
+}
+.captcha_freecall .form-group input{
+  max-width: 225px;
+}
+
+.input_freecall_background{
+  float: left;
+  margin-top: 7px;
+}
+.input_freecall_background input{
+  width: 230px !important;
+}
+
+.ajax_loading{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -20px;
+  background: url("../img/ajax_loading.gif");
+  z-index: 11111;
+}
+.error_freecall{
+  display: none;
+  position: relative;
+  background-color: #EFC8C8;
+  border-color: #EFC8C8;
+  color: #a94442;
+  border-left: solid 3px #e17875;
+  border-radius: 2px;
+  text-align: center;
+  padding: 8px 6px 8px 5px;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.success_freecall{
+  display: none;
+  position: relative;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+  border-left: solid 3px #90cb5c;
+  border-radius: 2px;
+  text-align: center;
+  padding: 8px 6px 8px 5px;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.gomakoil_call_block, .gomakoil_call_block_preview {
+  width: 550px;
+  background-color: #fff;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.gomakoil_call_block {
+  border-radius: 100%;
+  position: absolute;
+  z-index: 6100;
+  left: 50%;
+  margin: 0 0 0 -275px;
+  -o-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+}
+
+.inform_call_block{
+  width: 460px;
+  position: absolute;
+  z-index: 6100;
+  left: 50%;
+  margin: 0 0 0 -230px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.callback_content, .callback_content_preview{
+  border-radius: 0 0 7px 7px;
+}
+
+.callback_content {
+  padding: 75px 50px 50px 50px;
+}
+
+.callback_content input[type="text"], .callback_content select.form-control:not([size]):not([multiple]),
+.callback_content_preview input[type="text"], .callback_content_preview select.form-control:not([size]):not([multiple]) {
+    height: 50px;
+}
+
+.callback_content textarea, .callback_content_preview textarea {
+  height: 100px;
+}
+
+#button_large_call, #button_large_call_preview {
+  min-height: 50px;
+  border-radius: 3px;
+  font-weight: 400;
+  word-break: break-all;
+  white-space: normal;
+}
+
+.exclusive_callforprice:before, .exclusive_callforprice:after{
+  display: none;
+}
+.add_contact_form{
+  cursor: pointer;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.add_to_cart_gomakoil:before, .add_to_cart_gomakoil:after{
+  display: none;
+}
+.progres_bar_call_for_price{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #FFFFFF;
+  opacity: 0.6;
+  z-index: 111;
+   display: none;
+  border-radius: 7px;
+}
+.progres_bar_call_for_price .loading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -22px;
+  margin-left: -22px;
+  cursor: pointer;
+  z-index: 8060;
+  border-radius: 5px;
+}
+.progres_bar_call_for_price .loading div {
+  width: 44px;
+  height: 44px;
+  background: url('../img/ajax_loading.gif') center center no-repeat;
+}
+
+.content_info{
+  font-size: 19px;
+  min-height: 150px;
+  padding: 75px 25px 25px 25px;
+  font-family: 'Open Sans', sans-serif;
+  word-break: break-all;
+}
+
+.header_call_back, .header_call_back_preview {
+  position: relative;
+  height: 150px;
+  display: table;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header_call_back_info {
+  position: relative;
+  height: 100px;
+}
+
+.header_call_back:after, .header_call_back_info:after {
+  content: "";
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 40px solid;
+}
+
+.header_call_back_info:after {
+  border-left: 230px solid transparent;
+  border-right: 230px solid transparent;
+}
+
+.header_call_back:after {
+  border-left: 275px solid transparent;
+  border-right: 275px solid transparent;
+}
+
+#mpm_callforprice_form_title, #mpm_callforprice_form_title_preview{
+  font-weight: 600;
+}
+
+.productNameTitle, .productNameTitle_preview {
+  font-weight: 300;
+}
+
+.callback_content .input-group-addon i,
+.callback_content_preview .input-group-addon i {
+  font-size: 16px;
+  max-font-size: 16px;
+}
+
+.callback_content .input-group-addon,
+.callback_content_preview .input-group-addon {
+  border-radius: 3px 0 0 3px;
+  background-color: #ffffff;
+  border-color: #dadada;
+  width: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.callback_content .input-group,
+.callback_content_preview .input-group{
+  display: flex;
+}
+
+.callback_content .form-control,
+.callback_content_preview .form-control {
+  border-radius: 0 3px 3px 0 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #dadada;
+  box-shadow: none !important;
+  transition: none !important;
+}
+
+#mpm_callforprice_form_captcha,
+#mpm_callforprice_form_captcha_preview {
+  padding: 0;
+  background-color: #ffffff;
+}
+
+#mpm_callforprice_form_captcha img,
+#mpm_callforprice_form_captcha_preview img {
+  height: 46px;
+  width: max-content;
+}
+
+#mpm_callforprice_form_additional_msg, #mpm_callforprice_form_additional_msg_preview {
+  text-align: center;
+  word-break: break-all;
+}
+
+#inform_callback_msg_sign i,
+#inform_callback_msg_sign_preview i {
+  font-size: 80px;
+  position: relative;
+  top: 20px;
+}
+
+.mpm-callforprice-form-validation-sign {
+  display: -webkit-box;
+  font-size: 30px;
+  position: relative;
+  right: 20px;
+  top: 15px;
+  z-index: 2;
+  color: #ff6159;
+}
+
+#header_call_back_background, #header_call_back_background_preview {
+  background: url("../img/1.png") 4% -80%;
+  height: 100%;
+  width: 100%;
+  opacity: 0.1;
+  position: absolute;
+  bottom: 0;
+}
+
+.callback_content .input-group .form-control:not(:first-child):not(:last-child),
+.callback_content_preview .input-group .form-control:not(:first-child):not(:last-child) {
+  border-radius: 0 3px 3px 0;
+}
+
+.mpm-callforprice-form-input-info-sign {
+  display: none;
+  color: #ff6159;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  z-index: 10;
+  font-size: 20px;
+}
+
+@media (max-width: 570px){
+  .gomakoil_call_block{
+    width: 520px !important;
+    margin: 0 0 0 -260px !important;
+  }
+
+  .header_call_back:after {
+    border-left: 260px solid transparent;
+    border-right: 260px solid transparent;
+  }
+}
+
+@media (max-width: 520px){
+  .gomakoil_call_block{
+    width: 470px !important;
+    margin: 0 0 0 -235px !important;
+  }
+
+  .header_call_back:after {
+    border-left: 235px solid transparent;
+    border-right: 235px solid transparent;
+  }
+}
+
+@media (max-width: 470px){
+  .gomakoil_call_block{
+    width: 420px !important;
+    margin: 0 0 0 -210px !important;
+  }
+
+  .header_call_back:after {
+    border-left: 210px solid transparent;
+    border-right: 210px solid transparent;
+  }
+
+  .inform_call_block {
+    width: 420px;
+    margin: 0 0 0 -210px;
+  }
+
+  .header_call_back_info:after {
+    border-left: 210px solid transparent;
+    border-right: 210px solid transparent;
+  }
+
+}
+
+@media (max-width: 430px){
+  .gomakoil_call_block, .inform_call_block {
+    width: 380px !important;
+    margin: 0 0 0 -190px !important;
+  }
+
+  .gomakoil_call_block .form-group {
+    margin-bottom: 0.5rem;
+  }
+
+  .header_call_back:after, .header_call_back_info:after {
+    border-left: 190px solid transparent;
+    border-right: 190px solid transparent;
+    bottom: -25px;
+    border-top: 25px solid;
+  }
+
+  .input_freecall_background input,
+  .input_freecall_background{
+    width: 100% !important;
+  }
+
+  #mpm_callforprice_form_captcha {
+    display: block;
+    border: none !important;
+    margin-bottom: 16px;
+  }
+
+  .callback_content input[type="text"], .callback_content select.form-control:not([size]):not([multiple]) {
+    height: auto;
+  }
+
+  .callback_content {
+    padding: 50px 25px 25px 25px;
+  }
+
+  .title_call_back {
+    padding: 50px 0 0 0;
+  }
+
+  #mpm_callforprice_form_captcha img, #button_large_call {
+    height: auto;
+  }
+
+  #mpm_callforprice_form_captcha_input {
+    border-radius: 3px !important;
+  }
+
+  .mpm-callforprice-form-input-info-sign {
+    top: 8px;
+  }
+
+  #gomakoilFreeCall .mpm-callforprice-validation-error .mpm-callforprice-form-validation-message {
+    top: -2px;
+  }
+}
+
+@media (max-width: 380px){
+  .gomakoil_call_block, .inform_call_block {
+    width: 330px !important;
+    margin: 0 0 0 -165px !important;
+  }
+
+  .header_call_back:after, .header_call_back_info:after {
+    border-left: 165px solid transparent;
+    border-right: 165px solid transparent;
+  }
+}
+
+@media (max-width: 330px){
+  .gomakoil_call_block, .inform_call_block{
+    width: 290px !important;
+    margin: 0 0 0 -145px !important;
+  }
+
+  .header_call_back:after, .header_call_back_info:after {
+    border-left: 145px solid transparent;
+    border-right: 145px solid transparent;
+  }
+}
+
+@media (max-width: 290px){
+  .gomakoil_call_block, .inform_call_block{
+    width: 240px !important;
+    margin: 0 0 0 -1205px !important;
+  }
+
+  .header_call_back:after, .header_call_back_info:after {
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+  }
+}
+
+.mpm-callforprice-form-validation-message {
+  float: right;
+  border-radius: 1px;
+  background: #ff6159;
+  color: #ffffff;
+  padding: 2px;
+  font-size: 13px;
+  display: none;
+  position: relative;
+  top: 1px;
+}
+
+#gomakoilFreeCall .mpm-callforprice-validation-error .input-group .form-control {
+  border: 2px solid #ff6159;
+}
+
+#gomakoilFreeCall .mpm-callforprice-validation-error .input-group-addon {
+  border: 2px solid #ff6159;
+  background: #ff6159;
+  color: white;
+}
+
+#gomakoilFreeCall .mpm-callforprice-validation-error #mpm_callforprice_form_captcha {
+  border-right: none !important;
+}
+
+#gomakoilFreeCall .mpm-callforprice-validation-error .mpm-callforprice-form-validation-message,
+#gomakoilFreeCall .mpm-callforprice-validation-error .mpm-callforprice-form-input-info-sign {
+  display: block;
+}
+
+#gomakoilFreeCall #consent_checkbox_container,
+#gomakoilFreeCall_preview #consent_checkbox_container {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: left;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#gomakoilFreeCall #consent_checkbox_container {
+  visibility: hidden;
+}
+
+#gomakoilFreeCall_preview #consent_checkbox_container {
+  visibility: visible;
+}
+
+/* Hide the browser's default checkbox */
+#consent_checkbox_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+#consent_checkbox_container .custom-checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 17px;
+  width: 17px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 3px;
+}
+
+#mpm_freecall_form_container_preview #consent_checkbox_container .custom-checkbox {
+  border: 1px solid rgba(0, 0, 0, .15);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+#consent_checkbox_container .custom-checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+#consent_checkbox_container input:checked ~ .custom-checkbox:after {
+  display: block;
+}
+
+#gomakoilFreeCall_preview #consent_checkbox_container input:checked ~ .custom-checkbox {
+  background-color: #8e44ad;
+}
+
+/* Style the checkmark/indicator */
+#consent_checkbox_container .custom-checkbox:after {
+  left: 4px;
+  top: 1px;
+  width: 7px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#button_large_call.disabled-submit-btn,
+#button_large_call.disabled-submit-btn:hover{
+  opacity: 0.2 !important;
+  cursor: not-allowed;
+}

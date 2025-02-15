@@ -1,0 +1,121 @@
+/*
+    Only unique rules for form preview
+ */
+
+.gomakoil_call_block_preview {
+    border-radius: 8px;
+    border: 1px solid #e2cece;
+    box-shadow: 1px 1px 20px #ccb3b3;
+}
+
+.callback_content_preview{
+    padding: 50px 50px 50px 50px;
+}
+
+#button_large_call_preview {
+    border-color: transparent;
+}
+
+.header_call_back_preview_after {
+    content: "";
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 50px solid;
+}
+
+.header_call_back_preview_after {
+    border-left: 274px solid transparent;
+    border-right: 274px solid transparent;
+}
+
+#mpm_callforprice_form_title_preview {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.callback_content_preview .input-group-addon {
+    padding: 12px;
+}
+
+.form-preview {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+}
+
+.title_form_admin {
+    max-width: 50%;
+}
+
+.block_hr div {
+    max-width: 25%;
+}
+
+@media (max-width: 1500px) {
+    .form-preview {
+        position: absolute;
+        z-index: 1;
+        left: 35%;
+    }
+
+    .title_form_admin {
+        max-width: 47%;
+    }
+
+    .block_hr div {
+        max-width: 20%;
+    }
+}
+
+@media (max-width: 1350px) {
+    .form-preview {
+        position: relative;
+        z-index: 0;
+        left: 0%;
+    }
+
+    .title_form_admin, .block_hr div {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .gomakoil_call_block_preview {
+        width: 500px !important;
+    }
+
+    .header_call_back_preview_after {
+        border-left: 250px solid transparent;
+        border-right: 250px solid transparent;
+    }
+}
+
+@media (max-width: 700px) {
+    .gomakoil_call_block_preview {
+        width: 400px !important;
+    }
+
+    .header_call_back_preview_after {
+        border-left: 200px solid transparent;
+        border-right: 200px solid transparent;
+    }
+}
+
+@media (max-width: 550px) {
+    .gomakoil_call_block_preview {
+        width: 300px !important;
+    }
+
+    .header_call_back_preview_after {
+        border-left: 150px solid transparent;
+        border-right: 150px solid transparent;
+    }
+}
+
+@media (max-width: 400px) {
+    .gomakoil_call_block_preview, .header_call_back_preview_after{
+        display: none;
+    }
+}
